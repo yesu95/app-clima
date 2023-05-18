@@ -1,4 +1,4 @@
-Proyecto que muestra el tiempo actual en la ciudad que escribes.
+Proyecto que muestra el tiempo actual en la ciudad que busques.
 
 https://unique-maamoul-8bd12e.netlify.app/
 
