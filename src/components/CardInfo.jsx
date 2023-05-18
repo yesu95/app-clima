@@ -6,7 +6,6 @@ import MaxImg from "../img/temp-max.png";
 import Hot from "../img/icons/hot.png";
 import Cold from "../img/icons/cold.png";
 import Mid from "../img/icons/mid.png";
-import Lupa from "../img/icons/lupa.png";
 
 const CardInfo = ({ data }) => {
     // console.log(data);
