@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #36acf6;
+}
+.App {
+    text-align: center;
+}
+.App-header {
+    background-color: #164675;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #fff;
+}
+.App-link {
+    color: #61dafb;
+}
+.App-logo {
+    height: 15vmin;
+    pointer-events: none;
+    margin-bottom: 3.5rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 40vmax;
+    min-height: 30rem;
+    padding: 5rem 10rem;
+    margin-block: 5rem;
+    border-radius: 50px;
+    background: #5abffe;
+    box-shadow: 20px 20px 60px #2e92d1, -20px -20px 60px #3ec6ff;
+}
+.container-temp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.img-temp,
+.lupa {
+    height: 4vmin;
+    pointer-events: none;
+}
+h4 {
+    margin: 0.5rem;
+}
+.tittle-site {
+    padding: 3.5rem 3.5rem 0;
+    font-weight: 600;
+}
+form {
+    margin-block: 5rem;
+}
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    box-shadow: 20px 20px 60px #2e92d1, -20px -20px 60px #3ec6ff;
+    border-radius: 50px;
+    max-width: 40vmax;
+}
+::placeholder {
+    color: #000;
+}
+.btn-search {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 2rem;
+    border: none;
+    outline: none;
+    height: 2rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #5abffe;
+}
+.btn-search:focus,
+.btn-find:focus {
+    outline: none;
+    margin: 0;
+}
+.btn-find {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 2rem;
+    border: none;
+    outline: none;
+    height: 2rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #5abffe;
+    cursor: pointer;
+    transition: 0.3s;
+    width: min-content;
+}
+.btn-find:hover {
+    background: #79ccff;
+}
+.temp-logo {
+    height: 15vmin;
+}
+.bold {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+    .btn-find {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        box-shadow: 20px 20px 60px #2e92d1, -20px -20px 60px #3ec6ff;
+    }
+    .btn-search {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        box-shadow: 20px 20px 60px #2e92d1, -20px -20px 60px #3ec6ff;
+    }
+    label {
+        gap: 1.5rem;
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .principal {
+        margin-block: 0;
+        margin-bottom: 5rem;
+    }
+}
